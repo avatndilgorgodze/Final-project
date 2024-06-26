@@ -3,6 +3,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .divbox{
+        margin-top: 15px;
+    }
  
     .logo{
         display: none;
@@ -23,11 +26,32 @@
     .s-4{
         flex-direction: column;
         align-items: center;
+    }  
+}
+
+
+@media (max-width:432px){
+    .container5{
+        width:360px ;
+        height:260px;
     }
-    
+    .container5 img{
+        width:360px ;
+        height:260px;
+    }
 }
-@media (max-width:1025px){
-
+@media (max-width:344px){
+    .container5{
+        width:342px ;
+        height:260px;
+    }
+    .container5 img{
+        width:342px ;
+        height:260px;
+    }
 }
-
-  
+@media (max-width:425px){
+    footer p{
+        display: none;
+    }
+}
