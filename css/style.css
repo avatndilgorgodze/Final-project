@@ -631,3 +631,42 @@ color: #333;
     cursor: pointer;
     background-color: #05b139;
 }
+option img{
+    width: 60px;
+    height: 30px;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+select{
+    width: 305px;
+    padding: 10px 20px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    background-color: #127c04;
+    color: #fff;
+    border: 5px solid #127c04;
+    border-radius: 5px;
+   
+}
+select::-ms-expand{
+    display: none;
+}
+select:hover{
+    border:6px solid #078d03;
+}
+select option{
+    background-color: #05b139;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.selected{
+display: none;
+}
